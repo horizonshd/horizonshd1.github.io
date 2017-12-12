@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>寻找地平线</title>
+  
+  <subtitle>用烂笔头记录知识点的个人博客</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://horizonshd.com/"/>
+  <updated>2017-12-12T13:37:27.548Z</updated>
+  <id>http://horizonshd.com/</id>
+  
+  <author>
+    <name>Horizonshd</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>标签插件（Tag Plugins）</title>
+    <link href="http://horizonshd.com/2017/12/12/%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%EF%BC%88Tag-Plugins%EF%BC%89/"/>
+    <id>http://horizonshd.com/2017/12/12/标签插件（Tag-Plugins）/</id>
+    <published>2017-12-12T13:05:32.000Z</published>
+    <updated>2017-12-12T13:37:27.548Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;标签插件（Tag-Plugins）&quot;&gt;&lt;a href=&quot;#标签插件（Tag-Plugins）&quot; class=&quot;headerlink&quot; title=&quot;标签插件（Tag Plugins）&quot;&gt;&lt;/a&gt;标签插件（Tag Plugins）&lt;/h1&gt;&lt;p&gt;标签插件和
+        
+      
+    
+    </summary>
+    
+      <category term="笔记" scheme="http://horizonshd.com/categories/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Hexo" scheme="http://horizonshd.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>forth-artical</title>
+    <link href="http://horizonshd.com/2017/12/12/forth-artical/"/>
+    <id>http://horizonshd.com/2017/12/12/forth-artical/</id>
+    <published>2017-12-12T12:33:23.000Z</published>
+    <updated>2017-12-12T12:33:27.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Diary" scheme="http://horizonshd.com/categories/Diary/"/>
+    
+      <category term="Life" scheme="http://horizonshd.com/categories/Diary/Life/"/>
+    
+    
+      <category term="test3" scheme="http://horizonshd.com/tags/test3/"/>
+    
+      <category term="test4" scheme="http://horizonshd.com/tags/test4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>third-artical</title>
+    <link href="http://horizonshd.com/2017/12/07/third-artical/"/>
+    <id>http://horizonshd.com/2017/12/07/third-artical/</id>
+    <published>2017-12-07T02:49:12.000Z</published>
+    <updated>2017-12-07T02:55:24.671Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&amp;lt;% for (var link in site.data.menu) { %&amp;gt;&lt;br&gt;  &lt;a href=&quot;&lt;%= site.data.menu[link] %&gt;&quot;&gt; &amp;lt;%= link %&amp;gt; &lt;/a&gt;&lt;br&gt;&amp;lt;% }
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>second-artical</title>
+    <link href="http://horizonshd.com/2017/12/07/second-artical/"/>
+    <id>http://horizonshd.com/2017/12/07/second-artical/</id>
+    <published>2017-12-07T02:10:31.000Z</published>
+    <updated>2017-12-07T02:36:45.929Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;&lt;p&gt;Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.&lt;/p&gt;
+&lt;footer&gt;&lt;strong&gt;David
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>first-artical</title>
+    <link href="http://horizonshd.com/2017/12/06/first-artical/"/>
+    <id>http://horizonshd.com/2017/12/06/first-artical/</id>
+    <published>2017-12-06T08:26:21.000Z</published>
+    <updated>2017-12-07T01:58:00.209Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="test1 test2" scheme="http://horizonshd.com/tags/test1-test2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://horizonshd.com/2017/12/06/hello-world/"/>
+    <id>http://horizonshd.com/2017/12/06/hello-world/</id>
+    <published>2017-12-06T03:15:48.869Z</published>
+    <updated>2017-12-06T03:15:48.870Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

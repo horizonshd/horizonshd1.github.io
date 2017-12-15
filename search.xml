@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[标签插件（Tag Plugins）]]></title>
+    <url>%2F2017%2F12%2F12%2F%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%EF%BC%88Tag-Plugins%EF%BC%89%2F</url>
+    <content type="text"><![CDATA[标签插件（Tag Plugins）标签插件和 Front-matter 中的标签不同，它们是用于在文章中快速插入特定内容的插件。 引用块在文章中插入引言，可包含作者、来源和标题。 别号：quote content [author[source]] [link] [source_link_title] 1alert(&apos;Hello World!&apos;);]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[forth-artical]]></title>
+    <url>%2F2017%2F12%2F12%2Fforth-artical%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>Diary</category>
+        <category>Life</category>
+      </categories>
+      <tags>
+        <tag>test3</tag>
+        <tag>test4</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[third-artical]]></title>
+    <url>%2F2017%2F12%2F07%2Fthird-artical%2F</url>
+    <content type="text"><![CDATA[&lt;% for (var link in site.data.menu) { %&gt; &lt;%= link %&gt; &lt;% } %&gt;]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[second-artical]]></title>
+    <url>%2F2017%2F12%2F07%2Fsecond-artical%2F</url>
+    <content type="text"><![CDATA[Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy. David LevithanWide Awake 1[rectangle setX: 10 y: 10 width: 20 height: 20]; content [Pull Quote]]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[first-artical]]></title>
+    <url>%2F2017%2F12%2F06%2Ffirst-artical%2F</url>
+    <content type="text"></content>
+      <tags>
+        <tag>test1 test2</tag>
+      </tags>
+  </entry>
+</search>

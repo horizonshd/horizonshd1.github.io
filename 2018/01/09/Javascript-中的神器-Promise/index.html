@@ -125,17 +125,17 @@
 
 
 
-<meta name="description" content="Promise in js 回调函数真正的问题在于他剥夺了我们使用 return 和 throw 这些关键字的能力。而 Promise 很好地解决了这一切。2015 年 6 月，ECMAScript 6 的正式版 终于发布了。ECMAScript 是 JavaScript 语言的国际标准，JavaScript 是 ECMAScript 的实现。ES6 的目标，是使得 JavaScript 语言可以">
+<meta name="description" content="Promise in js 回调函数真正的问题在于他剥夺了我们使用 return 和 throw 这些关键字的能力。而 Promise 很好地解决了这一切。  2015 年 6 月，ECMAScript 6 的正式版 终于发布了。ECMAScript 是 JavaScript 语言的国际标准，JavaScript 是 ECMAScript 的实现。ES6 的目标，是使得 JavaScript 语言">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Javascript 中的神器--Promise">
 <meta property="og:url" content="http://horizonshd.com/2018/01/09/Javascript-中的神器-Promise/index.html">
 <meta property="og:site_name" content="寻找地平线">
-<meta property="og:description" content="Promise in js 回调函数真正的问题在于他剥夺了我们使用 return 和 throw 这些关键字的能力。而 Promise 很好地解决了这一切。2015 年 6 月，ECMAScript 6 的正式版 终于发布了。ECMAScript 是 JavaScript 语言的国际标准，JavaScript 是 ECMAScript 的实现。ES6 的目标，是使得 JavaScript 语言可以">
+<meta property="og:description" content="Promise in js 回调函数真正的问题在于他剥夺了我们使用 return 和 throw 这些关键字的能力。而 Promise 很好地解决了这一切。  2015 年 6 月，ECMAScript 6 的正式版 终于发布了。ECMAScript 是 JavaScript 语言的国际标准，JavaScript 是 ECMAScript 的实现。ES6 的目标，是使得 JavaScript 语言">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-01-09T10:15:13.544Z">
+<meta property="og:updated_time" content="2018-01-09T10:16:29.287Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Javascript 中的神器--Promise">
-<meta name="twitter:description" content="Promise in js 回调函数真正的问题在于他剥夺了我们使用 return 和 throw 这些关键字的能力。而 Promise 很好地解决了这一切。2015 年 6 月，ECMAScript 6 的正式版 终于发布了。ECMAScript 是 JavaScript 语言的国际标准，JavaScript 是 ECMAScript 的实现。ES6 的目标，是使得 JavaScript 语言可以">
+<meta name="twitter:description" content="Promise in js 回调函数真正的问题在于他剥夺了我们使用 return 和 throw 这些关键字的能力。而 Promise 很好地解决了这一切。  2015 年 6 月，ECMAScript 6 的正式版 终于发布了。ECMAScript 是 JavaScript 语言的国际标准，JavaScript 是 ECMAScript 的实现。ES6 的目标，是使得 JavaScript 语言">
 
 
 
@@ -427,7 +427,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-01-09T18:15:13+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-01-09T18:16:29+08:00">
                 2018-01-09
               </time>
             
@@ -483,8 +483,9 @@
 
       
         <h3 id="Promise-in-js"><a href="#Promise-in-js" class="headerlink" title="Promise in js"></a>Promise in js</h3><blockquote>
-<p>回调函数真正的问题在于他剥夺了我们使用 return 和 throw 这些关键字的能力。而 Promise 很好地解决了这一切。<br>2015 年 6 月，ECMAScript 6 的正式版 终于发布了。<br>ECMAScript 是 JavaScript 语言的国际标准，JavaScript 是 ECMAScript 的实现。ES6 的目标，是使得 JavaScript 语言可以用来编写大型的复杂的应用程序，成为企业级开发语言。</p>
+<p>回调函数真正的问题在于他剥夺了我们使用 return 和 throw 这些关键字的能力。而 Promise 很好地解决了这一切。</p>
 </blockquote>
+<p>2015 年 6 月，ECMAScript 6 的正式版 终于发布了。<br>ECMAScript 是 JavaScript 语言的国际标准，JavaScript 是 ECMAScript 的实现。ES6 的目标，是使得 JavaScript 语言可以用来编写大型的复杂的应用程序，成为企业级开发语言。</p>
 <h3 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h3><p>ES6 原生提供了 Promise 对象。</p>
 <p>所谓 Promise，就是一个对象，用来传递异步操作的消息。它代表了某个未来才会知道结果的事件（通常是一个异步操作），并且这个事件提供统一的 API，可供进一步处理。</p>
 <p>Promise 对象有以下两个特点。<br>（1）对象的状态不受外界影响。Promise 对象代表一个异步操作，有三种状态：Pending（进行中）、Resolved（已完成，又称 Fulfilled）和 Rejected（已失败）。只有异步操作的结果，可以决定当前是哪一种状态，任何其他操作都无法改变这个状态。这也是 Promise 这个名字的由来，它的英语意思就是「承诺」，表示其他手段无法改变。</p>

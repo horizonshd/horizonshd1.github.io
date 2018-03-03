@@ -1,11 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[赵贵芬]]></title>
-    <url>%2F2018%2F01%2F21%2F%E8%B5%B5%E8%B4%B5%E8%8A%AC%2F</url>
-    <content type="text"><![CDATA[赵贵芬我的妈呀]]></content>
+    <title><![CDATA[Android-活动的生命周期]]></title>
+    <url>%2F2018%2F02%2F16%2FAndroid-%E6%B4%BB%E5%8A%A8%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%2F</url>
+    <content type="text"><![CDATA[返回栈Android是使用任务（Task）来管理活动的，每一个任务就是一组存放在栈里的活动的集合，这个栈也被称作返回栈（Back Stack）。每启动一个新的活动，它会入栈并处于栈顶。每当按下Back键或者调用finish（）方法去销毁一个活动时，栈顶的活动就会出栈。系统总会显示处于栈顶的活动。 活动状态 每个活动在其生命周期中最多可能会有4种状态。 运行状态一个活动位于返回栈栈顶时，活动就处于运行状态。 暂停状态一个活动不再处于栈顶，但仍可见时，活动就处于暂停状态。 停止状态一个活动不再处于栈顶，并且完全不可见时，活动就处于停止状态。 销毁状态一个活动从返回栈中移除后就变成了销毁状态。]]></content>
       <categories>
-        <category>乱写</category>
+        <category>读书笔记</category>
+        <category>《第一行代码》</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Markdown语法]]></title>
+    <url>%2F2018%2F01%2F29%2FMarkdown%E8%AF%AD%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[1234567891011flowst=&gt;start: Start:&gt;https://www.zybuluo.comio=&gt;inputoutput: verificationop=&gt;operation: Your Operationcond=&gt;condition: Yes or No?sub=&gt;subroutine: Your Subroutinee=&gt;endst-&gt;io-&gt;op-&gt;condcond(yes)-&gt;econd(no)-&gt;sub-&gt;io]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Android开发第二天]]></title>
+    <url>%2F2018%2F01%2F29%2FAndroid%E5%BC%80%E5%8F%91%E7%AC%AC%E4%BA%8C%E5%A4%A9%2F</url>
+    <content type="text"><![CDATA[向下一个活动传递数据1234567891011121314151617181920public class FirstActivity extends AppCompatActivity &#123; @Override protected void onCreate(Bundle savedInstanceState) &#123; super.onCreate(savedInstanceState); setContentView(R.layout.first_layout); Button button1 = (Button) findViewById(R.id.button_1); button1.setOnClickListener(new View.OnClickListener() &#123; @Override public void onClick(View view) &#123; String data = "Hello SecondActivity"; Intent intent = new Intent(FirstActivity.this,SecondActivity.class); intent.putExtra("extra_data",data); startActivity(intent); &#125; &#125;); &#125;&#125; 1234567891011public class SecondActivity extends AppCompatActivity &#123; @Override protected void onCreate(Bundle savedInstanceState) &#123; super.onCreate(savedInstanceState); setContentView(R.layout.second_layout); Intent intent = getIntent(); String data = intent.getStringExtra("extra_data"); Log.d("SecondActivity",data); &#125;&#125; 日志显示 返回数据给上一活动1234567891011121314151617181920212223242526272829public class FirstActivity extends AppCompatActivity &#123; @Override protected void onCreate(Bundle savedInstanceState) &#123; super.onCreate(savedInstanceState); setContentView(R.layout.first_layout); Button button1 = (Button) findViewById(R.id.button_1); button1.setOnClickListener(new View.OnClickListener() &#123; @Override public void onClick(View view) &#123; Intent intent = new Intent(FirstActivity.this,SecondActivity.class); startActivityForResult(intent,1); &#125; &#125;); &#125; @Override protected void onActivityResult(int requestCode, int resultCode, Intent data) &#123; switch (requestCode)&#123; case 1: if(resultCode == RESULT_OK)&#123; String returnedData = data.getStringExtra("data_return"); Log.d("FirstActivity",returnedData); &#125; &#125; &#125;&#125; 1234567891011121314151617181920212223242526272829public class SecondActivity extends AppCompatActivity &#123; @Override protected void onCreate(Bundle savedInstanceState) &#123; super.onCreate(savedInstanceState); setContentView(R.layout.second_layout); // 通过界面中的按钮返回上一活动 Button button2 = (Button) findViewById(R.id.button_2); button2.setOnClickListener(new View.OnClickListener() &#123; @Override public void onClick(View view) &#123; Intent intent = new Intent(); intent.putExtra("data_return","Hello From SecondActivity"); setResult(RESULT_OK,intent); finish(); &#125; &#125;); &#125; // 通过手机下方的Back键返回上一活动 @Override public void onBackPressed() &#123; Intent intent = new Intent(); intent.putExtra("data_return","Hello From SecondActivity"); setResult(RESULT_OK,intent); finish(); &#125;&#125; 日志显示]]></content>
+      <categories>
+        <category>读书笔记</category>
+        <category>《第一行代码》</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[Perceptron Learning Algorithm(PLA)]]></title>
+    <url>%2F2018%2F01%2F26%2FPerceptron-Learning-Algorithm-PLA%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>Marchine Learning</category>
+      </categories>
+      <tags>
+        <tag>Machine Learning Foundations</tag>
+        <tag>林轩田</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Android开发第一天]]></title>
+    <url>%2F2018%2F01%2F22%2FAndroid%E5%BC%80%E5%8F%91%E7%AC%AC%E4%B8%80%E5%A4%A9%2F</url>
+    <content type="text"><![CDATA[Android系统架构 Android的系统架构大致可以分为四层架构，五块区域。 Linux内核层 Android系统是基于Linux2.6内核的，这一层为Android设备的各种硬件提供底层的驱动，如显示驱动、音频驱动、照相机驱动、蓝牙驱动、WiFi驱动、电源管理等。 系统运行库层 这一层通过一些C/C++库来为Android系统提供主要的特凶支持。如SQLite库提供了数据库的支持，OpenGL|ES库提供了3D绘图的支持，Webkit库提供了浏览器内核的支持等。 同样在这一层的还有Android运行时库，它主要提供一些核心库，能够允许开发者使用Java语言来编写Android应用。Android运行库中包含Dalvik虚拟机，它使得每一个Android应用都能运行在独立的进程中，并且拥有一个自己的额Dalvik虚拟机实例。相较于Java虚拟机，Dalvik是专门为移动设备定制的，它针对手机内存、CPU性能有限等情况做了优化处理。 应用框架层 这一层提供了构建应用程序是可能用到的各种API，Android自带的一些核心库就是通过使用这些API完成的。 应用层 所有安装在手机上的应用程序都是属于这一层的，比如系统自带的联系人、短信等。 Android应用开发特色 Android系统提供的特性，供我们可以开发出优秀的而应用程序。 四大组件 活动（Activity）、服务（Service）、广播接收器（BroadcastReceiver）、内容提供器（ContentProvider）。 丰富的系统控件 Android系统为开发者提供了丰富的系统控件，使得我们可以很轻松的编写出漂亮的界面。当然也完全可以定制属于自己的控件。 SQLite数据库 Android系统还自带了这种轻量级、运算速度几块地嵌入式关系型数据库。它不仅支持标准的SQL语法，还可以通过ANdroid封装好的API进行操作，让存储和读取数据变得更非常方便。 地理位置定位 强大的多媒体 Android系统提供了丰富的多媒体服务，如音乐、视频、录音、拍照、闹铃等等，这一切都可以在程序中通过代码进行控制。 传感器 Android手机中都会内置许多传感器，如加速度传感器、方向传感器等。]]></content>
+      <categories>
+        <category>读书笔记</category>
+        <category>《第一行代码》</category>
       </categories>
   </entry>
   <entry>
@@ -18,41 +57,15 @@
     <url>%2F2017%2F12%2F12%2F%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%EF%BC%88Tag-Plugins%EF%BC%89%2F</url>
     <content type="text"><![CDATA[标签插件（Tag Plugins）标签插件和 Front-matter 中的标签不同，它们是用于在文章中快速插入特定内容的插件。 引用块在文章中插入引言，可包含作者、来源和标题。 别号：quote content [author[source]] [link] [source_link_title] 1alert(&apos;Hello World!&apos;);]]></content>
       <categories>
-        <category>笔记</category>
+        <category>碎片笔记</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[forth-artical]]></title>
-    <url>%2F2017%2F12%2F12%2Fforth-artical%2F</url>
-    <content type="text"></content>
-      <categories>
-        <category>Diary</category>
-        <category>Life</category>
-      </categories>
-      <tags>
-        <tag>test3</tag>
-        <tag>test4</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[third-artical]]></title>
-    <url>%2F2017%2F12%2F07%2Fthird-artical%2F</url>
-    <content type="text"><![CDATA[&lt;% for (var link in site.data.menu) { %&gt; &lt;%= link %&gt; &lt;% } %&gt;]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[second-artical]]></title>
     <url>%2F2017%2F12%2F07%2Fsecond-artical%2F</url>
     <content type="text"><![CDATA[Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy. David LevithanWide Awake 1[rectangle setX: 10 y: 10 width: 20 height: 20]; content [Pull Quote]]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[first-artical]]></title>
-    <url>%2F2017%2F12%2F06%2Ffirst-artical%2F</url>
-    <content type="text"></content>
-      <tags>
-        <tag>test1 test2</tag>
-      </tags>
   </entry>
 </search>

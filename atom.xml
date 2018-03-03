@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://horizonshd.com/"/>
-  <updated>2018-01-21T09:19:01.726Z</updated>
+  <updated>2018-02-16T01:31:08.387Z</updated>
   <id>http://horizonshd.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>赵贵芬</title>
-    <link href="http://horizonshd.com/2018/01/21/%E8%B5%B5%E8%B4%B5%E8%8A%AC/"/>
-    <id>http://horizonshd.com/2018/01/21/赵贵芬/</id>
-    <published>2018-01-21T09:17:42.000Z</published>
-    <updated>2018-01-21T09:19:01.726Z</updated>
+    <title>Android-活动的生命周期</title>
+    <link href="http://horizonshd.com/2018/02/16/Android-%E6%B4%BB%E5%8A%A8%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/"/>
+    <id>http://horizonshd.com/2018/02/16/Android-活动的生命周期/</id>
+    <published>2018-02-16T01:02:14.000Z</published>
+    <updated>2018-02-16T01:31:08.387Z</updated>
     
     <summary type="html">
     
@@ -29,13 +29,113 @@
       
         
         
-          &lt;h3 id=&quot;赵贵芬&quot;&gt;&lt;a href=&quot;#赵贵芬&quot; class=&quot;headerlink&quot;
+          &lt;h3 id=&quot;返回栈&quot;&gt;&lt;a href=&quot;#返回栈&quot; class=&quot;headerlink&quot; title=&quot;返回栈&quot;&gt;&lt;/a&gt;返回栈&lt;/h3&gt;&lt;p&gt;Android是使用任务（Task）来管理活动的，每一个任务就是一组存放在栈里的活动的集合，这个栈也被称作返回栈（Back
         
       
     
     </summary>
     
-      <category term="乱写" scheme="http://horizonshd.com/categories/%E4%B9%B1%E5%86%99/"/>
+      <category term="读书笔记" scheme="http://horizonshd.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="《第一行代码》" scheme="http://horizonshd.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E3%80%8A%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81%E3%80%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown语法</title>
+    <link href="http://horizonshd.com/2018/01/29/Markdown%E8%AF%AD%E6%B3%95/"/>
+    <id>http://horizonshd.com/2018/01/29/Markdown语法/</id>
+    <published>2018-01-29T08:42:46.000Z</published>
+    <updated>2018-02-16T01:31:24.098Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;img src=&quot;/2018/01/29/Markdown语法/01-斜体和粗体.png&quot;&gt;
+&lt;img src=&quot;/2018/01/29/Markdown语法/02-分级标题.png&quot;&gt;
+&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="Markdown" scheme="http://horizonshd.com/categories/Markdown/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Android开发第二天</title>
+    <link href="http://horizonshd.com/2018/01/29/Android%E5%BC%80%E5%8F%91%E7%AC%AC%E4%BA%8C%E5%A4%A9/"/>
+    <id>http://horizonshd.com/2018/01/29/Android开发第二天/</id>
+    <published>2018-01-29T07:06:23.000Z</published>
+    <updated>2018-01-29T09:32:17.801Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;向下一个活动传递数据&quot;&gt;&lt;a href=&quot;#向下一个活动传递数据&quot; class=&quot;headerlink&quot; title=&quot;向下一个活动传递数据&quot;&gt;&lt;/a&gt;向下一个活动传递数据&lt;/h3&gt;&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+      <category term="读书笔记" scheme="http://horizonshd.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="《第一行代码》" scheme="http://horizonshd.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E3%80%8A%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81%E3%80%8B/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Perceptron Learning Algorithm(PLA)</title>
+    <link href="http://horizonshd.com/2018/01/26/Perceptron-Learning-Algorithm-PLA/"/>
+    <id>http://horizonshd.com/2018/01/26/Perceptron-Learning-Algorithm-PLA/</id>
+    <published>2018-01-26T07:57:12.000Z</published>
+    <updated>2018-01-26T07:59:43.282Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Marchine Learning" scheme="http://horizonshd.com/categories/Marchine-Learning/"/>
+    
+    
+      <category term="Machine Learning Foundations" scheme="http://horizonshd.com/tags/Machine-Learning-Foundations/"/>
+    
+      <category term="林轩田" scheme="http://horizonshd.com/tags/%E6%9E%97%E8%BD%A9%E7%94%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android开发第一天</title>
+    <link href="http://horizonshd.com/2018/01/22/Android%E5%BC%80%E5%8F%91%E7%AC%AC%E4%B8%80%E5%A4%A9/"/>
+    <id>http://horizonshd.com/2018/01/22/Android开发第一天/</id>
+    <published>2018-01-22T03:23:17.000Z</published>
+    <updated>2018-01-22T12:16:25.673Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Android系统架构&quot;&gt;&lt;a href=&quot;#Android系统架构&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="读书笔记" scheme="http://horizonshd.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="《第一行代码》" scheme="http://horizonshd.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E3%80%8A%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81%E3%80%8B/"/>
     
     
   </entry>
@@ -67,7 +167,7 @@
     <link href="http://horizonshd.com/2017/12/12/%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%EF%BC%88Tag-Plugins%EF%BC%89/"/>
     <id>http://horizonshd.com/2017/12/12/标签插件（Tag-Plugins）/</id>
     <published>2017-12-12T13:05:32.000Z</published>
-    <updated>2018-01-09T06:58:37.635Z</updated>
+    <updated>2018-01-29T08:59:20.469Z</updated>
     
     <summary type="html">
     
@@ -81,54 +181,10 @@
     
     </summary>
     
-      <category term="笔记" scheme="http://horizonshd.com/categories/%E7%AC%94%E8%AE%B0/"/>
+      <category term="碎片笔记" scheme="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
     
     
       <category term="Hexo" scheme="http://horizonshd.com/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>forth-artical</title>
-    <link href="http://horizonshd.com/2017/12/12/forth-artical/"/>
-    <id>http://horizonshd.com/2017/12/12/forth-artical/</id>
-    <published>2017-12-12T12:33:23.000Z</published>
-    <updated>2017-12-12T15:19:47.487Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-      <category term="Diary" scheme="http://horizonshd.com/categories/Diary/"/>
-    
-      <category term="Life" scheme="http://horizonshd.com/categories/Diary/Life/"/>
-    
-    
-      <category term="test3" scheme="http://horizonshd.com/tags/test3/"/>
-    
-      <category term="test4" scheme="http://horizonshd.com/tags/test4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>third-artical</title>
-    <link href="http://horizonshd.com/2017/12/07/third-artical/"/>
-    <id>http://horizonshd.com/2017/12/07/third-artical/</id>
-    <published>2017-12-07T02:49:12.000Z</published>
-    <updated>2017-12-07T02:55:24.671Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&amp;lt;% for (var link in site.data.menu) { %&amp;gt;&lt;br&gt;  &lt;a href=&quot;&lt;%= site.data.menu[link] %&gt;&quot;&gt; &amp;lt;%= link %&amp;gt; &lt;/a&gt;&lt;br&gt;&amp;lt;% }
-        
-      
-    
-    </summary>
-    
     
   </entry>
   
@@ -152,22 +208,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>first-artical</title>
-    <link href="http://horizonshd.com/2017/12/06/first-artical/"/>
-    <id>http://horizonshd.com/2017/12/06/first-artical/</id>
-    <published>2017-12-06T08:26:21.000Z</published>
-    <updated>2017-12-07T01:58:00.209Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-      <category term="test1 test2" scheme="http://horizonshd.com/tags/test1-test2/"/>
     
   </entry>
   

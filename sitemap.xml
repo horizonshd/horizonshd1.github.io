@@ -2,9 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://horizonshd.com/2018/01/21/%E8%B5%B5%E8%B4%B5%E8%8A%AC/</loc>
+    <loc>http://horizonshd.com/2018/01/29/Markdown%E8%AF%AD%E6%B3%95/</loc>
     
-    <lastmod>2018-01-21T09:19:01.726Z</lastmod>
+    <lastmod>2018-02-16T01:31:24.098Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://horizonshd.com/2018/02/16/Android-%E6%B4%BB%E5%8A%A8%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</loc>
+    
+    <lastmod>2018-02-16T01:31:08.387Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://horizonshd.com/2018/01/29/Android%E5%BC%80%E5%8F%91%E7%AC%AC%E4%BA%8C%E5%A4%A9/</loc>
+    
+    <lastmod>2018-01-29T09:32:17.801Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://horizonshd.com/2017/12/12/%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%EF%BC%88Tag-Plugins%EF%BC%89/</loc>
+    
+    <lastmod>2018-01-29T08:59:20.469Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://horizonshd.com/2018/01/26/Perceptron-Learning-Algorithm-PLA/</loc>
+    
+    <lastmod>2018-01-26T07:59:43.282Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://horizonshd.com/2018/01/22/Android%E5%BC%80%E5%8F%91%E7%AC%AC%E4%B8%80%E5%A4%A9/</loc>
+    
+    <lastmod>2018-01-22T12:16:25.673Z</lastmod>
     
   </url>
   
@@ -12,13 +47,6 @@
     <loc>http://horizonshd.com/2018/01/09/Javascript-%E4%B8%AD%E7%9A%84%E7%A5%9E%E5%99%A8-Promise/</loc>
     
     <lastmod>2018-01-09T10:16:29.287Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://horizonshd.com/2017/12/12/%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6%EF%BC%88Tag-Plugins%EF%BC%89/</loc>
-    
-    <lastmod>2018-01-09T06:58:37.635Z</lastmod>
     
   </url>
   
@@ -44,13 +72,6 @@
   </url>
   
   <url>
-    <loc>http://horizonshd.com/2017/12/12/forth-artical/</loc>
-    
-    <lastmod>2017-12-12T15:19:47.487Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://horizonshd.com/404.html</loc>
     
     <lastmod>2017-12-12T14:05:17.793Z</lastmod>
@@ -58,23 +79,9 @@
   </url>
   
   <url>
-    <loc>http://horizonshd.com/2017/12/07/third-artical/</loc>
-    
-    <lastmod>2017-12-07T02:55:24.671Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://horizonshd.com/2017/12/07/second-artical/</loc>
     
     <lastmod>2017-12-07T02:36:45.929Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://horizonshd.com/2017/12/06/first-artical/</loc>
-    
-    <lastmod>2017-12-07T01:58:00.209Z</lastmod>
     
   </url>
   

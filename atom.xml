@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://horizonshd.com/"/>
-  <updated>2018-02-16T01:31:08.387Z</updated>
+  <updated>2018-03-28T09:01:45.041Z</updated>
   <id>http://horizonshd.com/</id>
   
   <author>
@@ -17,11 +17,198 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Django 框架的相关配置指令</title>
+    <link href="http://horizonshd.com/2018/03/28/Django-%E6%A1%86%E6%9E%B6%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E6%8C%87%E4%BB%A4/"/>
+    <id>http://horizonshd.com/2018/03/28/Django-框架的相关配置指令/</id>
+    <published>2018-03-28T08:57:53.000Z</published>
+    <updated>2018-03-28T09:01:45.041Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;注：&lt;br&gt;[ ] —— 可选参数&lt;br&gt;–  —— 参数变量名&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;django-admin.py startproject --projectname&lt;/code&gt;&lt;br&gt;    创建项目&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;python
+        
+      
+    
+    </summary>
+    
+      <category term="碎片笔记" scheme="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="django" scheme="http://horizonshd.com/tags/django/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Anaconda 相关配置</title>
+    <link href="http://horizonshd.com/2018/03/28/Anaconda-%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE/"/>
+    <id>http://horizonshd.com/2018/03/28/Anaconda-相关配置/</id>
+    <published>2018-03-28T08:53:41.000Z</published>
+    <updated>2018-03-28T09:03:24.705Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ol&gt;
+&lt;li&gt;Anaconda安装完成后，安装目录\Anaconda3\Scripts\为其在Anaconda
+        
+      
+    
+    </summary>
+    
+      <category term="碎片笔记" scheme="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="anaconda" scheme="http://horizonshd.com/tags/anaconda/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux 常用指令</title>
+    <link href="http://horizonshd.com/2018/03/28/Linux-%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/"/>
+    <id>http://horizonshd.com/2018/03/28/Linux-常用指令/</id>
+    <published>2018-03-28T08:50:38.000Z</published>
+    <updated>2018-03-28T08:52:33.527Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;┌───一、命令基本格式&lt;br&gt;│       ├───命令提示符&lt;br&gt;│       │   [root@localhost~]#&lt;br&gt;│       │   其中:&lt;br&gt;│       │       root:       当前登录用户&lt;br&gt;│      
+        
+      
+    
+    </summary>
+    
+      <category term="碎片笔记" scheme="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="linux" scheme="http://horizonshd.com/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu 常用指令</title>
+    <link href="http://horizonshd.com/2018/03/28/Ubuntu-%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/"/>
+    <id>http://horizonshd.com/2018/03/28/Ubuntu-常用指令/</id>
+    <published>2018-03-28T08:45:49.000Z</published>
+    <updated>2018-03-28T08:49:32.485Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;code&gt;Ubuntu包管理工具&lt;/code&gt;：dpkg/apt&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;dpkg常用命令&lt;/code&gt;：&lt;br&gt;    安装软件：dpkg -i packagename.deb&lt;br&gt;    删除软件：dpkg -r packagename&lt;br&gt; 
+        
+      
+    
+    </summary>
+    
+      <category term="碎片笔记" scheme="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="ubuntu" scheme="http://horizonshd.com/tags/ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git 基础指令</title>
+    <link href="http://horizonshd.com/2018/03/28/Git-%E5%9F%BA%E7%A1%80%E6%8C%87%E4%BB%A4/"/>
+    <id>http://horizonshd.com/2018/03/28/Git-基础指令/</id>
+    <published>2018-03-28T08:42:03.000Z</published>
+    <updated>2018-03-28T08:43:29.723Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;┌─── git 基础指令[本地]&lt;br&gt;│       ├───01:git init             ────将当前文件夹初始化为git仓库&lt;br&gt;│       ├───02:git status           ────查看当前 git
+        
+      
+    
+    </summary>
+    
+      <category term="碎片笔记" scheme="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="git" scheme="http://horizonshd.com/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>多媒体基础知识</title>
+    <link href="http://horizonshd.com/2018/03/28/%E5%A4%9A%E5%AA%92%E4%BD%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    <id>http://horizonshd.com/2018/03/28/多媒体基础知识/</id>
+    <published>2018-03-28T08:38:52.000Z</published>
+    <updated>2018-03-28T08:40:22.319Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;┌─光盘数据标准&lt;br&gt;│   ├─数字音频光盘（CD-DA,红皮书）&lt;br&gt;│   ├─只读数据光盘（CD-ROM,黄皮书）&lt;br&gt;│   ├─交互式光盘（CD-I,绿皮书）&lt;br&gt;│   ├─可刻录可擦写光盘（CD-R,橙皮书）&lt;br&gt;│  
+        
+      
+    
+    </summary>
+    
+      <category term="碎片笔记" scheme="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="多媒体" scheme="http://horizonshd.com/tags/%E5%A4%9A%E5%AA%92%E4%BD%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>五十音图</title>
+    <link href="http://horizonshd.com/2018/03/28/%E4%BA%94%E5%8D%81%E9%9F%B3%E5%9B%BE/"/>
+    <id>http://horizonshd.com/2018/03/28/五十音图/</id>
+    <published>2018-03-28T08:17:41.000Z</published>
+    <updated>2018-03-28T08:37:03.239Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;code&gt;A  行&lt;/code&gt;：&lt;br&gt;あ    い    う    え    お&lt;br&gt;ア    イ    ウ    エ    オ&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Ka 行&lt;/code&gt;：&lt;br&gt;か    き    く    け    こ&lt;br&gt;カ    キ    ク  
+        
+      
+    
+    </summary>
+    
+      <category term="碎片笔记" scheme="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="日语" scheme="http://horizonshd.com/tags/%E6%97%A5%E8%AF%AD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Android-活动的生命周期</title>
     <link href="http://horizonshd.com/2018/02/16/Android-%E6%B4%BB%E5%8A%A8%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/"/>
     <id>http://horizonshd.com/2018/02/16/Android-活动的生命周期/</id>
     <published>2018-02-16T01:02:14.000Z</published>
-    <updated>2018-02-16T01:31:08.387Z</updated>
+    <updated>2018-03-28T08:15:11.834Z</updated>
     
     <summary type="html">
     

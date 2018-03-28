@@ -4,17 +4,139 @@
 
     
   <url>
-    <loc>http://horizonshd.com/2018/01/29/Markdown%E8%AF%AD%E6%B3%95/</loc>
-    <lastmod>2018-02-16T01:31:24.098Z</lastmod>
+    <loc>http://horizonshd.com/2018/03/28/Anaconda-%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE/</loc>
+    <lastmod>2018-03-28T09:03:24.705Z</lastmod>
     <data>
         <display>
-        <title>Markdown语法</title>
-        <pubTime>2018-01-29T08:42:46.000Z</pubTime>
+        <title>Anaconda 相关配置</title>
+        <pubTime>2018-03-28T08:53:41.000Z</pubTime>
         
+        <tag>anaconda</tag>
+         
          
            
              
-              <breadCrumb title="Markdown" url="http://horizonshd.com/categories/Markdown/"/>
+              <breadCrumb title="碎片笔记" url="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://horizonshd.com/2018/03/28/Django-%E6%A1%86%E6%9E%B6%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E6%8C%87%E4%BB%A4/</loc>
+    <lastmod>2018-03-28T09:01:45.041Z</lastmod>
+    <data>
+        <display>
+        <title>Django 框架的相关配置指令</title>
+        <pubTime>2018-03-28T08:57:53.000Z</pubTime>
+        
+        <tag>django</tag>
+         
+         
+           
+             
+              <breadCrumb title="碎片笔记" url="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://horizonshd.com/2018/03/28/Linux-%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</loc>
+    <lastmod>2018-03-28T08:52:33.527Z</lastmod>
+    <data>
+        <display>
+        <title>Linux 常用指令</title>
+        <pubTime>2018-03-28T08:50:38.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="碎片笔记" url="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://horizonshd.com/2018/03/28/Ubuntu-%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</loc>
+    <lastmod>2018-03-28T08:49:32.485Z</lastmod>
+    <data>
+        <display>
+        <title>Ubuntu 常用指令</title>
+        <pubTime>2018-03-28T08:45:49.000Z</pubTime>
+        
+        <tag>ubuntu</tag>
+         
+         
+           
+             
+              <breadCrumb title="碎片笔记" url="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://horizonshd.com/2018/03/28/Git-%E5%9F%BA%E7%A1%80%E6%8C%87%E4%BB%A4/</loc>
+    <lastmod>2018-03-28T08:43:29.723Z</lastmod>
+    <data>
+        <display>
+        <title>Git 基础指令</title>
+        <pubTime>2018-03-28T08:42:03.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+         
+           
+             
+              <breadCrumb title="碎片笔记" url="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://horizonshd.com/2018/03/28/%E5%A4%9A%E5%AA%92%E4%BD%93%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/</loc>
+    <lastmod>2018-03-28T08:40:22.319Z</lastmod>
+    <data>
+        <display>
+        <title>多媒体基础知识</title>
+        <pubTime>2018-03-28T08:38:52.000Z</pubTime>
+        
+        <tag>多媒体</tag>
+         
+         
+           
+             
+              <breadCrumb title="碎片笔记" url="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://horizonshd.com/2018/03/28/%E4%BA%94%E5%8D%81%E9%9F%B3%E5%9B%BE/</loc>
+    <lastmod>2018-03-28T08:37:03.239Z</lastmod>
+    <data>
+        <display>
+        <title>五十音图</title>
+        <pubTime>2018-03-28T08:17:41.000Z</pubTime>
+        
+        <tag>日语</tag>
+         
+         
+           
+             
+              <breadCrumb title="碎片笔记" url="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
           
         </display>
     </data>
@@ -23,7 +145,7 @@
     
   <url>
     <loc>http://horizonshd.com/2018/02/16/Android-%E6%B4%BB%E5%8A%A8%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</loc>
-    <lastmod>2018-02-16T01:31:08.387Z</lastmod>
+    <lastmod>2018-03-28T08:15:11.834Z</lastmod>
     <data>
         <display>
         <title>Android-活动的生命周期</title>
@@ -36,6 +158,24 @@
           
              
               <breadCrumb title="《第一行代码》" url="http://horizonshd.com/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E3%80%8A%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81%E3%80%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://horizonshd.com/2018/01/29/Markdown%E8%AF%AD%E6%B3%95/</loc>
+    <lastmod>2018-02-16T01:31:24.098Z</lastmod>
+    <data>
+        <display>
+        <title>Markdown语法</title>
+        <pubTime>2018-01-29T08:42:46.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Markdown" url="http://horizonshd.com/categories/Markdown/"/>
           
         </display>
     </data>

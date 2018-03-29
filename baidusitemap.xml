@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://horizonshd.com/2018/03/28/Linux-%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</loc>
+    <lastmod>2018-03-29T03:24:45.118Z</lastmod>
+    <data>
+        <display>
+        <title>Linux 常用指令</title>
+        <pubTime>2018-03-28T08:50:38.000Z</pubTime>
+        
+        <tag>linux</tag>
+         
+         
+           
+             
+              <breadCrumb title="碎片笔记" url="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://horizonshd.com/2018/03/28/Anaconda-%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE/</loc>
     <lastmod>2018-03-28T09:03:24.705Z</lastmod>
     <data>
@@ -32,26 +52,6 @@
         <pubTime>2018-03-28T08:57:53.000Z</pubTime>
         
         <tag>django</tag>
-         
-         
-           
-             
-              <breadCrumb title="碎片笔记" url="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://horizonshd.com/2018/03/28/Linux-%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</loc>
-    <lastmod>2018-03-28T08:52:33.527Z</lastmod>
-    <data>
-        <display>
-        <title>Linux 常用指令</title>
-        <pubTime>2018-03-28T08:50:38.000Z</pubTime>
-        
-        <tag>linux</tag>
          
          
            

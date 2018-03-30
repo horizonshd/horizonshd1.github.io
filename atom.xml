@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://horizonshd.com/"/>
-  <updated>2018-03-28T09:01:45.041Z</updated>
+  <updated>2018-03-30T03:40:37.299Z</updated>
   <id>http://horizonshd.com/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Ubuntu 16.0.4中node express的安装</title>
+    <link href="http://horizonshd.com/2018/03/30/Ubuntu-16-0-4%E4%B8%ADnode-express%E7%9A%84%E5%AE%89%E8%A3%85/"/>
+    <id>http://horizonshd.com/2018/03/30/Ubuntu-16-0-4中node-express的安装/</id>
+    <published>2018-03-30T02:48:07.000Z</published>
+    <updated>2018-03-30T03:40:37.299Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;本次的安装是以普通用户而非root进行的操作。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;Node安装&quot;&gt;&lt;a href=&quot;#Node安装&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="开发环境配置" scheme="http://horizonshd.com/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/"/>
+    
+    
+      <category term="ubuntu" scheme="http://horizonshd.com/tags/ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CURL 命令相关语法</title>
+    <link href="http://horizonshd.com/2018/03/29/CURL-%E5%91%BD%E4%BB%A4%E7%9B%B8%E5%85%B3%E8%AF%AD%E6%B3%95/"/>
+    <id>http://horizonshd.com/2018/03/29/CURL-命令相关语法/</id>
+    <published>2018-03-29T05:48:48.000Z</published>
+    <updated>2018-03-29T05:53:37.408Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;语法： curl [option] [url]&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;-A/–user-agent &lt;string&gt;                设置用户代理发送给服务器&lt;br&gt;-b/–cookie &lt;name=string
+        
+      
+    
+    </summary>
+    
+      <category term="碎片笔记" scheme="http://horizonshd.com/categories/%E7%A2%8E%E7%89%87%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="linux" scheme="http://horizonshd.com/tags/linux/"/>
+    
+  </entry>
   
   <entry>
     <title>Django 框架的相关配置指令</title>

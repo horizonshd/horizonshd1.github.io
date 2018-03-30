@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Ubuntu 16.0.4中node express的安装]]></title>
+    <url>%2F2018%2F03%2F30%2FUbuntu-16-0-4%E4%B8%ADnode-express%E7%9A%84%E5%AE%89%E8%A3%85%2F</url>
+    <content type="text"><![CDATA[本次的安装是以普通用户而非root进行的操作。 Node安装 把Node安装到Ubuntu上之前，需要安装一些包sudo apt-get install build-essential libssl-dev 下载Node源码安装命令行下载工具curl:sudo apt-get install curlcd ~ &amp;&amp; mkdir tmp &amp;&amp; cd tmp从给定的链接中下载文件并保存到当前的目录下:curl -O http://nodejs.org/dist/node-latest.tar.gz 编译并安装Node解压缩Node的源码文件:tar zxvf node-latest.tar.gz进入包含Node源码的目录:cd node-v*运行配置脚本，以便针对当前的系统准备相应的安装:./configure开始编译Node，需花费一段时间，本人操作时大概用了20分钟:make向系统中安装Node:sudo make install查看版本号，验证是否安装成功:node -v 该Node安装过程成功后，npm已经自动配置好了。node 可执行文件在 /usr/local/bin下。npm 可执行文件在/usr/local/bin下，为指向/usr/local/lib/node_modules/npm/bin/npm-cli.js的软链接 Express的安装sudo npm install -g express sudo npm install -g express-generator express 可执行文件在/usr/local/bin/下，为指向/usr/local/lib/node_modules/express-generator/bin/express-cli.js的软链接。]]></content>
+      <categories>
+        <category>开发环境配置</category>
+      </categories>
+      <tags>
+        <tag>ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[CURL 命令相关语法]]></title>
+    <url>%2F2018%2F03%2F29%2FCURL-%E5%91%BD%E4%BB%A4%E7%9B%B8%E5%85%B3%E8%AF%AD%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[语法： curl [option] [url] -A/–user-agent 设置用户代理发送给服务器-b/–cookie cookie字符串或文件读取位置-c/–cookie-jar 操作结束后把cookie写入到这个文件中-C/–continue-at 断点续转-D/–dump-header 把header信息写入到该文件中-e/–referer 来源网址-f/–fail 连接失败时不显示http错误-o/–output 把输出写到该文件中-O/–remote-name 把输出写到该文件中，保留远程文件的文件名-r/–range 检索来自HTTP/1.1或FTP服务器字节范围-s/–silent 静音模式。不输出任何东西-T/–upload-file 上传文件-u/–user 设置服务器的用户和密码-w/–write-out [format] 什么输出完成后-x/–proxy 在给定的端口上使用HTTP代理-#/–progress-bar 进度条显示当前的传送状态]]></content>
+      <categories>
+        <category>碎片笔记</category>
+      </categories>
+      <tags>
+        <tag>linux</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Django 框架的相关配置指令]]></title>
     <url>%2F2018%2F03%2F28%2FDjango-%E6%A1%86%E6%9E%B6%E7%9A%84%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE%E6%8C%87%E4%BB%A4%2F</url>
     <content type="text"><![CDATA[注：[ ] —— 可选参数– —— 参数变量名 django-admin.py startproject --projectname 创建项目 python manage.py runserver [8000] 在项目文件下运行该命令，在端口8000启动一个本地服务器 python manage.py startapp --appname 在项目文件下运行该命令，在projectname文件夹下创建一个app用的文件appname django模型支持的所有字段类型（\Lib\site-packages\django\db\models\fields__init__.py）： ‘AutoField’, ‘BLANK_CHOICE_DASH’, ‘BigAutoField’, ‘BigIntegerField’, ‘BinaryField’, ‘BooleanField’, ‘CharField’, ‘CommaSeparatedIntegerField’, ‘DateField’, ‘DateTimeField’, ‘DecimalField’, ‘DurationField’, ‘EmailField’, ‘Empty’, ‘Field’, ‘FieldDoesNotExist’, ‘FilePathField’, ‘FloatField’, ‘GenericIPAddressField’, ‘IPAddressField’, ‘IntegerField’, ‘NOT_PROVIDED’, ‘NullBooleanField’, ‘PositiveIntegerField’, ‘PositiveSmallIntegerField’, ‘SlugField’, ‘SmallIntegerField’, ‘TextField’, ‘TimeField’, ‘URLField’, ‘UUIDField’, python manage.py makemigrations Django 在 app 应用的 migrations\ 目录下生成了一个 0001_initial.py 文件， 这个文件是 Django 用来记录我们对模型做了哪些修改的文件 python manage.py sqlmigrate blog 0001 对于了解数据库语言的人，你可以运行上面的命令看看 Django 究竟为我们做了什么 你将看到输出了经 Django 翻译后的数据库表创建语句，这有助于你理解 Django ORM 的工作机制。 python manage.py migrate Django 通过检测应用中 migrations\ 目录下的文件，得知我们对数据库做了哪些操作， 然后它把这些操作翻译成数据库操作语言，从而把这些操作作用于真正的数据库,真正地为我们创建数据库表 python manage.py createsuperuser 创建django项目的管理员账号 python manage.py shell python命令交互界面 {百分号 load 百分号} 标签 检查 INSTALLED_APPS 中的设置，仅允许加载已安装的Django应用程序中的模板库 创建一个模板库分两步走： 第一，决定模板库应该放在哪个Django应用下。 如果你通过 manage.py startapp 创建了一个应用，你可以把它放在那里， 或者你可以为模板库单独创建一个应用。 我们更推荐使用后者，因为你的filter可能在后来的工程中有用。 第二，在适当的Django应用包里创建一个 templatetags 目录。 这个目录应当和 models.py 、 views.py 等处于同一层次]]></content>
